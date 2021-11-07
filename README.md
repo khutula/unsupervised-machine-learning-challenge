@@ -47,7 +47,15 @@ This project uses:
 Using PCA to reduce dimensions and preserve 90% of explained variance caused the number of columns to reduce from 98 to 74.
 
 #### t-SNE
-The t-SNE dimension reduction seems to give us two larger somewhat distinct clusters and one smaller but distinct cluster. It appears to be 3 clusters in total with a couple of outliers.
+The t-SNE dimension reduction seems to give us three larger somewhat distinct clusters and one smaller but distinct cluster. It appears to be 4 clusters in total with a couple of outliers.
+
+![image](https://user-images.githubusercontent.com/82410966/140663825-c8e22a2d-ad9a-4153-924d-6aca49bc8ae1.png)
 
 #### Cluster Analysis & Recommendations
-Based on my analysis and findings, I would recommend to the client that cryptocurrencies can be clustered together, and that the provided data suggests five clusters. One consideration to take into account is that one of these five clusters appears to be significant outliers in the data. These could indicate either errors in the data or simply a significant difference between the other cryptocurrencies. I would recommend collecting more data to be certain that this model works, as we lost almost half the data during initial cleaning due to empty values or no trading being performed on that crypto.
+Based on my analysis and findings, I would recommend to the client that cryptocurrencies can be clustered together, and that the provided data suggests four clusters. One consideration to take into account is that there appears to be two significant outliers in the data. These could indicate either errors in the data or simply a significant difference between the other cryptocurrencies. I would recommend collecting more data to be certain that this model works, as we lost almost half the data during initial cleaning due to empty values or no trading being performed on that crypto.
+
+![image](https://user-images.githubusercontent.com/82410966/140663839-1dac96b8-aa9b-4f4a-b125-40ce29ef8fc3.png)
+
+![image](https://user-images.githubusercontent.com/82410966/140663847-2eec6802-6969-46c4-91be-f9be8732f7b4.png)
+
+
